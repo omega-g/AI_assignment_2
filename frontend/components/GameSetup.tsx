@@ -216,7 +216,7 @@ export function GameSetup({ onStartGame, initialConfig, isLoading = false }: Gam
           <input
             type="range"
             min={1}
-            max={7}
+            max={8}
             step={1}
             value={maxDepth}
             onChange={(e) => setMaxDepth(parseInt(e.target.value))}
@@ -226,7 +226,7 @@ export function GameSetup({ onStartGame, initialConfig, isLoading = false }: Gam
             <span>1 (Instant)</span>
             <span>3 (Quick)</span>
             <span>5 (Recommended)</span>
-            <span>7 (Extensive)</span>
+            <span>8 (Extensive)</span>
           </div>
         </div>
 
